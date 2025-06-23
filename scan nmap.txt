@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -p 1-65535 - 192.168.215.240" profile_name="" scanner="nmap" start="1750664836" startstr="Mon Jun 23 13:17:16 2025" version="7.97" xmloutputversion="1.04"><scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.97 ( https://nmap.org ) at 2025-06-23 13:17 +0530
+Failed to resolve "-".
+Bare '-': did you put a space between '--'?
+Nmap scan report for 192.168.215.240
+Host is up (0.00032s latency).
+Not shown: 65519 closed tcp ports (reset)
+PORT      STATE    SERVICE
+135/tcp   open     msrpc
+137/tcp   filtered netbios-ns
+139/tcp   open     netbios-ssn
+445/tcp   open     microsoft-ds
+902/tcp   open     iss-realsecure
+912/tcp   open     apex-mesh
+5040/tcp  open     unknown
+49664/tcp open     unknown
+49665/tcp open     unknown
+49666/tcp open     unknown
+49667/tcp open     unknown
+49668/tcp open     unknown
+49675/tcp open     unknown
+49799/tcp open     unknown
+50131/tcp open     unknown
+57621/tcp open     unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 14.34 seconds
+</output><host comment=""><status state="up"></status><address addr="192.168.215.240" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports><extraports count="65519" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="137" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="netbios-ns"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="902" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="iss-realsecure"></service></port><port portid="912" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="apex-mesh"></service></port><port portid="5040" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port><port portid="49664" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port><port portid="49665" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port><port portid="49666" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port><port portid="49667" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port><port portid="49668" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port><port portid="49675" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port><port portid="49799" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port><port portid="50131" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port><port portid="57621" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><runstats><finished time="1750664850" timestr="Mon Jun 23 13:17:30 2025"></finished><hosts up="1" down="0" total="1"></hosts></runstats></nmaprun>
